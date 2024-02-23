@@ -8,7 +8,7 @@ author = "Hugo Authors"
 
 
 
-Hello, I’m passionate rust blockchain developer interested in working on hard problems based on defi and distributed systems particularly in Rust.
+Hello, I’m passionate rust blockchain developer interested in working on hard problems based on defi and distributed systems.
 
 In addition to my technical skills, I also capable of working in management, marketing and community management roles at startups companies and growth-stage companies.
 

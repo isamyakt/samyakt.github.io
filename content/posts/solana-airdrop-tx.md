@@ -1,5 +1,5 @@
 ---
-title: Airdrop and Transaction in Solana Devnet using rust
+title: Solana - Initialize Keypair, Airdrops & Transactions using Rust
 description: To write Client-Side application we'll use `solana-sdk` crate & for communication with a solana node over RPC we'll use `solana-client`
 date: "2023-09-08"
 ---
