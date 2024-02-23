@@ -47,7 +47,7 @@ The `target` folder will be automatically created after running `cargo build`.
 
 # Rust file modules
 - filename: `src/main.rs`
-```
+```zsh
 mod json;
 
 fn main() {
@@ -62,7 +62,7 @@ pub mod write_json;
 
 # Write Json in rust
 - filename: `src/json/write_json.rs`
-```
+```zsh
 use serde::Serialize;
 
 #[derive(Serialize)]
@@ -104,7 +104,7 @@ The resulting JSON string is returned.
 
 # Let's Run the Write Json code
 - filename: `src/main.rs`
-```
+```zsh
 mod json;
 use crate::json::write_json::{
     WriteGame, 
@@ -154,7 +154,7 @@ The `write_json` function is called to serialize the Rust struct `WriteGame` int
 
 # Write Json in rust
 - filename: `src/json/read_json.rs`
-```
+```zsh
 use serde::Deserialize;
 
 #[derive(Deserialize)]
@@ -192,7 +192,7 @@ It deserializes the JSON string into an `ReadGame` struct using `serde_json::fro
 
 # Let's Run the Read Json code
 - filename: `src/main.rs`
-```
+```zsh
 mod json;
 use crate::json::read_json::read_json_typed;
 
@@ -249,7 +249,7 @@ It also shows how to use these structs to read and manipulate JSON data.
 
 # Run both read and write json code
 - filename: `src/main.rs` (full code)
-```
+```zsh
 mod json;
 
 use crate::json::write_json::{WriteGame, WriteGameLevel, write_json};
